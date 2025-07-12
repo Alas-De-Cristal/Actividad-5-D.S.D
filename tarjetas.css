@@ -1,0 +1,36 @@
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  font-family: var(--font-family);
+  margin-bottom: var(--spacing);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card__content {
+  padding: var(--spacing);
+}
+
+.card__title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.card__text {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
