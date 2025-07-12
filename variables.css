@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --background-color: #f8f9fa;
+  --text-color: #212529;
+  --font-family: 'Segoe UI', sans-serif;
+  --border-radius: 8px;
+  --spacing: 16px;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
